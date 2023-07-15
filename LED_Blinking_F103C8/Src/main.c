@@ -23,7 +23,7 @@ volatile uint32_t *pRCC_APB2ENR = 	(uint32_t*)RCC_APB2ENR;
 volatile uint32_t *pGPIOC_CRH   = 	(uint32_t*)GPIOC_CRH;
 volatile uint32_t *pGPIOC_BSRR  = 	(uint32_t*)GPIOC_BSRR;
 volatile uint32_t *pGPIOC_ODR   = 	(uint32_t*)GPIOC_ODR;
-
+//volatile uint32_t *ppGPIOC_ODR   = 	(uint32_t*)GPIOC_ODR;
 
 
 int main(void)
